@@ -145,33 +145,41 @@
                   <div class="calc__total">Итого: 0 руб.</div>
                 </div>
 
-                <div class="col-xl-6">
-                  <div class="calc__col">
-                    <div class="calc__label">За последние 3 года у меня (семьи) были затраты на лечение</div>
-                    <div class="calc__slide"></div>
-                    <div class="calc__label">Были затраты на мое обучение или детей</div>
-                    <div class="calc__slide"></div>
-                    <div class="calc__label">Покупка жилья</div>
-                    <div class="calc__slide"></div>
-                    <div class="calc__label">Открыл инвестиционный счет</div>
-                    <div class="calc__slide"></div>
-                    <div class="calc__label">Приобреталась медицинская страховка</div>
-                    <div class="calc__slide"></div>
+                <div class="col-xl-9 col-sm-12">
+                  <div class="calc__slides">
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">За последние 3 года у меня (семьи) были затраты на лечение</div>
+                      <div class="calc__slide"></div>
+                    </div>
+                    <input class="calc__input" type="number" value="10.000">
+
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Были затраты на мое обучение или детей</div>
+                      <div class="calc__slide"></div>
+                    </div>
+                    <input class="calc__input" type="number" value="10.000">
+
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Покупка жилья</div>
+                      <div class="calc__slide"></div>
+                    </div>
+                    <input class="calc__input" type="number" value="10.000">
+
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Открыл инвестиционный счет</div>
+                      <div class="calc__slide"></div>  
+                    </div>
+                    <input class="calc__input" type="number" value="10.000">
+
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Приобреталась медицинская страховка</div>
+                      <div class="calc__slide"></div>
+                    </div>
+                    <input class="calc__input" type="number" value="10.000">
                   </div>
-                </div>
-                
-                <div class="col-xl-3">
-                  <div class="calc__col">
-                    <input class="calc__input" type="number" value="10.000">
-                    <input class="calc__input" type="number" value="10.000">
-                    <input class="calc__input" type="number" value="10.000">
-                    <input class="calc__input" type="number" value="10.000">
-                    <input class="calc__input" type="number" value="10.000">
-                  </div>
-                  
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-12">
                   <div class="calc__btn-container">
                     <button class="calc__btn" type="submit">Вернуть средства</button>
                   </div>
@@ -192,53 +200,58 @@
                 <div class="col-xl-3 col-xs-12">
                   <div class="calc__total">Итого: 0 руб.</div>
                 </div>
-
-                <div class="col-xl-4">
+              
+                <div class="col-xl-4 col-sm-6 col-xs-12">
                   <div class="calc__col">
                     <div class="calc__radio-title">Система налогообложения</div>
 
                     <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="taxation-system" value="osno">
+                      <input class="calc__radio" type="radio" checked="checked" name="taxation-system" value="osno">
                       ОСНО
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="taxation-system" value="osno">
                       УСН 15%
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="taxation-system" value="osno">
                       УСН 6%
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                     <input class="calc__radio" type="radio" name="taxation-system" value="osno">
                       Нулевая отчетность
+                      <span class="calc__checkmark"></span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-xl-4">
-                  <div class="calc__col">
-                    <div class="calc__label">Количество операций в месяц</div>
-                    <div class="calc__slide calc__slide_accounting"></div>
-
-                    <div class="calc__label">Количество наемных сотрудников</div>
-                    <div class="calc__slide"></div>
-
-                    <button class="calc__btn calc__btn_small" type="submit">Показать расширенный калькулятор</button>
-                  </div>
-                </div>
-
-                <div class="col-xl-1">
-                  <div class="calc__col calc__col_small">
+                <div class="col-xl-5 col-sm-6 col-xs-12">
+                  <div class="calc__slides">
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Количество операций в месяц</div>
+                      <div class="calc__slide calc__slide_accounting"></div>
+                    </div>
                     <input class="calc__input_grey" name="operations" type="number" value="3">
+
+                    <div class="calc__slides-wrapper">
+                      <div class="calc__label">Количество наемных сотрудников</div>
+                      <div class="calc__slide"></div>
+                    </div>
                     <input class="calc__input_grey" name="employees" type="number" value="3">
+
+                    <div class="calc__btn-container_small">
+                      <button class="calc__btn calc__btn_small" type="submit">Показать расширенный калькулятор</button>
+                    </div>
                   </div>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-12">
                   <div class="calc__btn-container">
                     <button class="calc__btn" type="submit">Вернуть средства</button>
                   </div>
@@ -260,59 +273,67 @@
                 </div>
               
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-sm-6 col-xs-12">
                   <div class="calc__col">
                     <div class="calc__radio-title">Выберите форму управления</div>
 
                     <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="management-form" value="ip">
+                      <input class="calc__radio" type="radio" checked="checked" name="management-form" value="ip">
                       ИП
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="management-form" value="ooo-1">
                       ООО один учредитель
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="management-form" value="ooo-more-2">
                       ООО 2 и больше учредителей
+                      <span class="calc__checkmark"></span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-sm-6 col-xs-12">
                   <div class="calc__col">
                     <div class="calc__radio-title">Выберите услуги</div>
 
                     <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="services" value="registration-without-seal">
+                      <input class="calc__radio" type="radio" checked="checked" name="services" value="registration-without-seal">
                       Регистрация без печати, открытие счета, фондов
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="services" value="registration-with-seal">
                       Регистрация с печатью, расч. счетов, фондами
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="services" value="liquidation-without-activity">
                       Ликвидация фирмы без деятельности
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="services" value="liquidation-with-activity">
                       Ликвидация фирмы с деятельностью
+                      <span class="calc__checkmark"></span>
                     </label>
 
                     <label class="calc__label calc__radio-label">
                       <input class="calc__radio" type="radio" name="services" value="okved-changes">
                       Внесение изменений ОКВЭД
+                      <span class="calc__checkmark"></span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-12">
                   <div class="calc__btn-container">
                     <button class="calc__btn" type="submit">Вернуть средства</button>
                   </div>

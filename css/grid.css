@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 876px) {
   .container {
     width: 100%;
   }
@@ -83,7 +83,7 @@
   .col-md-12 {flex-basis: 100%;}
 }
 
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 876px) {
   .col-sm-1 { flex-basis: 8.3333%;}
   .col-sm-2 { flex-basis: 16.6667%;}
   .col-sm-3 { flex-basis: 24.9999%;}
