@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Консалтинговая группа Баланс</title>
-</head>
-<body>
-  <header class="header">
-    <div class="header__logo block_light-blue">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 col-sm-8 col-xs-12">
-            <div class="logo"><a href="#"><img src="img/logo.png" alt="Консалтинговая группа Баланс"></a></div>
-          </div>
 
-          <div class="col-xl-3 col-sm-4 col-xs-12">
-              <div class="social-media">
-                <a href="#" class="social-media__item"><img src="img/vk.png" alt="Вконтакте"></a>
-                <a href="#" class="social-media__item"><img src="img/fb.png" alt="Facebook"></a>
-                <a href="#" class="social-media__item"><img src="img/ok.png" alt="Одноклассники"></a>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Консалтинговая группа Баланс</title>
+</head>
+
+<body>
+  <header class="header logo-and-social">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-xl-9">
+          <a href="#">
+            <img class="logo" src="img/logo.png" alt="Консалтинговая группа Баланс">
+          </a>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-xl-3">
+          <div class="social-media">
+            <a href="#" class="social-media__link">
+              <img src="img/vk.png" alt="Вконтакте">
+            </a>
+            <a href="#" class="social-media__link">
+              <img src="img/fb.png" alt="Facebook">
+            </a>
+            <a href="#" class="social-media__link">
+              <img src="img/ok.png" alt="Одноклассники">
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+  </header>
 
-    <div class="header__contacts block_blue">
+  <main>
+    <div class="address-block">
       <div class="container">
-        <div class="header__contacts contact-list">
-          <div class="row">
-            <div class="col-xl-3 col-sm-6 col-xs-12">
-              <div class="contact-list__item">
-                <img src="img/phone_menu.png" alt="Телефон" class="contact-list__icon">
-                <div class="contact-list__text">+7 (351) 235-95-77</div>  
-                <a class="contact-list__spoiler" href="#"><img src="img/spoiler.jpg"></a>
-              </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 col-xs-12">
-              <div class="contact-list__item">
-                <img src="img/clock_menu.png" alt="Режим работы" class="contact-list__icon">
-                <div class="contact-list__text">по будням 9:00 — 17:00 <br> обед: 13:00 — 14:00</div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 col-xs-12">
-              <div class="contact-list__item">
-                <img src="img/letter_menu.png" alt="Е-мейл" class="contact-list__icon">
-                <div class="contact-list__text">balans74@mail.ru</div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 col-xs-12">
-              <div class="contact-list__item">
-                <img src="img/marker_menu.png" alt="Адрес" class="contact-list__icon">
-                <div class="contact-list__text">ул. Братьев Кашириных, 32 офис 9</div>
-                <a class="contact-list__spoiler" href="#"><img src="img/spoiler.jpg"></a>
-              </div>
-            </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <address class="address">
+              <img src="img/phone_menu.png" alt="Телефон" class="address__icon">
+              <a class="address__text" href="tel:+73512359577">+7 (351) 235-95-77</a>
+              <a class="address__dropdown" href="#">
+                <img src="img/dropdown.jpg">
+              </a>
+            </address>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <address class="address">
+              <img src="img/clock_menu.png" alt="Режим работы" class="address__icon">
+              <div class="address__text">по будням 9:00 — 17:00
+                <br> обед: 13:00 — 14:00</div>
+            </address>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <address class="address">
+              <img src="img/letter_menu.png" alt="Е-мейл" class="address__icon">
+              <a class="address__text" href="mailto:balans74@mail.ru">balans74@mail.ru</a>
+            </address>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <address class="address">
+              <img src="img/marker_menu.png" alt="Адрес" class="address__icon">
+              <div class="address__text">ул. Братьев Кашириных, 32 офис 9</div>
+              <a class="address__dropdown" href="#">
+                <img src="img/dropdown.jpg">
+              </a>
+            </address>
           </div>
         </div>
       </div>
@@ -66,473 +81,401 @@
       <hr class="divider divider_header">
     </div>
 
-    <div class="container">    
-      <div class="row">
-        <div class="col-xl-12">
-          <nav class="main-nav">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="about.html">О компании
-                  <span class="main-nav__arrow"></span>
-                </a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Новости
-                  <span class="main-nav__arrow"></span>
-                </a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Услуги
-                  <span class="main-nav__arrow"></span>
-                </a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Стоимость
-                  <span class="main-nav__arrow"></span>
-                </a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link main-nav__link_right" href="#">Контакты
-                  <span class="main-nav__arrow"></span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="banner">
-            <img src="img/slide1.png" alt="Обратный звонок" class="banner__img">
-            <button class="feedback-btn">
-              <img src="img/phone_slide.png" alt="Обратный звонок" class="feedback-btn__icon">
-              <span class="feedback-btn__title">Обратный звонок</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
     <div class="container">
       <div class="main-content">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="women">
-              <img src="img/wom_one.png" alt="Бухгалтер" class="women__item">
-              <img src="img/wom_two.png" alt="Бухгалтер" class="women__item">
-              <img src="img/wom_three.png" alt="Бухгалтер" class="women__item">
-            </div>
-          </div>
+        <nav class="menu">
+          <a href="about.html" class="menu__link">О компании
+            <span class="menu__arrow"></span>
+          </a>
+          <a href="#" class="menu__link">Новости
+            <span class="menu__arrow"></span>
+          </a>
+          <a href="#" class="menu__link">Услуги
+            <span class="menu__arrow"></span>
+          </a>
+          <a href="#" class="menu__link">Стоимость
+            <span class="menu__arrow"></span>
+          </a>
+          <a href="#" class="menu__link menu__link_right">Контакты
+            <span class="menu__arrow"></span>
+          </a>
+        </nav>
+
+        <div class="banner">
+          <img src="img/slide1.png" alt="Обратный звонок" class="banner__img">
+          <button class="btn-primary">
+            <img src="img/phone_slide.png" alt="Обратный звонок" class="btn-primary__icon">
+            <span class="btn-primary__title">Обратный звонок</span>
+          </button>
+        </div>
+
+        <div class="badges">
+          <img src="img/wom_one.png" alt="Бухгалтер" class="badge">
+          <img src="img/wom_two.png" alt="Бухгалтер" class="badge">
+          <img src="img/wom_three.png" alt="Бухгалтер" class="badge">
         </div>
 
         <section class="calcs">
-          <div class="row">
-            <div class="col-xl-12">
-              <h1 class="calcs__head h1">Налоговые вычеты</h1>
-            </div>
-          </div>
+          <h1 class="title">Налоговые вычеты</h1>
 
           <div class="calc">
-            <form action="" class="calc__form" name="debt">
-              <div class="row">
-                <div class="col-xl-9 col-xs-12">
-                  <div class="calc__title">Сколько налоговая мне должна
-                    <a class="calc__arrow"></a>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-xs-12">
-                  <div class="calc__total">Итого: 0 руб.</div>
-                </div>
-
-                <div class="col-xl-9 col-sm-12">
-                  <div class="calc__slides">
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">За последние 3 года у меня (семьи) были затраты на лечение</div>
-                      <div class="calc__slide"></div>
-                    </div>
-                    <input class="calc__input" type="number" value="10.000">
-
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Были затраты на мое обучение или детей</div>
-                      <div class="calc__slide"></div>
-                    </div>
-                    <input class="calc__input" type="number" value="10.000">
-
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Покупка жилья</div>
-                      <div class="calc__slide"></div>
-                    </div>
-                    <input class="calc__input" type="number" value="10.000">
-
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Открыл инвестиционный счет</div>
-                      <div class="calc__slide"></div>  
-                    </div>
-                    <input class="calc__input" type="number" value="10.000">
-
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Приобреталась медицинская страховка</div>
-                      <div class="calc__slide"></div>
-                    </div>
-                    <input class="calc__input" type="number" value="10.000">
-                  </div>
-                </div>
-
-                <div class="col-xl-3 col-sm-12">
-                  <div class="calc__btn-container">
-                    <button class="calc__btn" type="submit">Вернуть средства</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          
-          <div class="calc">
-            <form action="" class="calc__form" name="accounting">
-              <div class="row">
-                <div class="col-xl-9 col-xs-12">
-                  <div class="calc__title">Бухгалтерские услуги
-                    <a class="calc__arrow"></a>
-                  </div>
-                </div>
-
-                <div class="col-xl-3 col-xs-12">
-                  <div class="calc__total">Итого: 0 руб.</div>
-                </div>
-              
-                <div class="col-xl-4 col-sm-6 col-xs-12">
-                  <div class="calc__col">
-                    <div class="calc__radio-title">Система налогообложения</div>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" checked="checked" name="taxation-system" value="osno">
-                      ОСНО
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="taxation-system" value="osno">
-                      УСН 15%
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="taxation-system" value="osno">
-                      УСН 6%
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                    <input class="calc__radio" type="radio" name="taxation-system" value="osno">
-                      Нулевая отчетность
-                      <span class="calc__checkmark"></span>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="col-xl-5 col-sm-6 col-xs-12">
-                  <div class="calc__slides">
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Количество операций в месяц</div>
-                      <div class="calc__slide calc__slide_accounting"></div>
-                    </div>
-                    <input class="calc__input_grey" name="operations" type="number" value="3">
-
-                    <div class="calc__slides-wrapper">
-                      <div class="calc__label">Количество наемных сотрудников</div>
-                      <div class="calc__slide"></div>
-                    </div>
-                    <input class="calc__input_grey" name="employees" type="number" value="3">
-
-                    <div class="calc__btn-container_small">
-                      <button class="calc__btn calc__btn_small" type="submit">Показать расширенный калькулятор</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xl-3 col-sm-12">
-                  <div class="calc__btn-container">
-                    <button class="calc__btn" type="submit">Вернуть средства</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-
-          <div class="calc">
-            <form action="" class="calc__form" name="accounting">
-              <div class="row">
-                <div class="col-xl-9 col-xs-12">
-                  <div class="calc__title">Реставрация/Ликвидация ИП/ООО
-                    <a class="calc__arrow"></a>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-xs-12">
-                  <div class="calc__total">Итого: 0 руб.</div>
-                </div>
-              
-
-                <div class="col-xl-4 col-sm-6 col-xs-12">
-                  <div class="calc__col">
-                    <div class="calc__radio-title">Выберите форму управления</div>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" checked="checked" name="management-form" value="ip">
-                      ИП
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="management-form" value="ooo-1">
-                      ООО один учредитель
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="management-form" value="ooo-more-2">
-                      ООО 2 и больше учредителей
-                      <span class="calc__checkmark"></span>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="col-xl-5 col-sm-6 col-xs-12">
-                  <div class="calc__col">
-                    <div class="calc__radio-title">Выберите услуги</div>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" checked="checked" name="services" value="registration-without-seal">
-                      Регистрация без печати, открытие счета, фондов
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="services" value="registration-with-seal">
-                      Регистрация с печатью, расч. счетов, фондами
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="services" value="liquidation-without-activity">
-                      Ликвидация фирмы без деятельности
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="services" value="liquidation-with-activity">
-                      Ликвидация фирмы с деятельностью
-                      <span class="calc__checkmark"></span>
-                    </label>
-
-                    <label class="calc__label calc__radio-label">
-                      <input class="calc__radio" type="radio" name="services" value="okved-changes">
-                      Внесение изменений ОКВЭД
-                      <span class="calc__checkmark"></span>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="col-xl-3 col-sm-12">
-                  <div class="calc__btn-container">
-                    <button class="calc__btn" type="submit">Вернуть средства</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </section>
-
-        <section class="accounting">
-          <div class="row">
-            <div class="col-xl-12">
-              <h2 class="accounting-title title">Правильная бухгалтерия в Челябинске</h2>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="accounting__content content">
-                Этапы оказания услуги по первичной регистрации ООО: <br>
-                Вы обращаетесь в нашу компанию для открытия Вам ООО, отправив on-line заявку или позвонив по телефону; <br>
-                Мы подробно Вас консультируем по теме открытия ООО и заключаем с Вами договор на оказание услуг; <br>
-                Вы предоставляете нам копии/сканы паспортов учредителей и руководителя будущего ООО, а также заполненную анкету (по электронной почте); <br>
-                Наши юристы готовят пакет документов на регистрацию ООО и сообщают Вам о готовности; <br>
-                После заверения документы подаются учредителем в налоговый орган; <br>
-                В течение 5 рабочих дней налоговый орган рассматривает полученные документы, принимает решение о регистрации ООО, и на следующий день выдает документы на вновь зарегистрированное ООО; <br>
-                Наш сотрудник по доверенности получает документы в налоговом органе. <br>
-                Мы заказываем печать для Вашего ООО и готовим Приказ о назначении руководителя и главного бухгалтера. <br>
-              </div>
-            </div>
-          </div>
-
-          <hr class="divider">
-
-          <div class="accounting__advantages">
             <div class="row">
-              <div class="col-xl-3 col-sm-6 col-xs-12">
-                <div class="advantage">
-                  <img src="img/shield.png" alt="Конфиденциальность и безопасность" class="advantage__img">
-                  <div class="advantage__title">Конфиденциальность и безопасность</div>
+              <div class="col-xs-12 col-xl-9">
+                <div class="calc__title">Сколько налоговая мне должна
+                  <a class="calc__arrow" href="#"></a>
                 </div>
               </div>
-              
-              <div class="col-xl-3 col-sm-6 col-xs-12">
-                <div class="advantage">
-                  <img src="img/time.png" alt="Удобно и оперативно" class="advantage__img">
-                  <div class="advantage__title">Удобно и оперативно</div>
+              <div class="col-xs-12 col-xl-3">
+                <div class="calc__total">Итого: 0 руб.</div>
+              </div>
+
+              <div class="col-sm-12 col-xl-9">
+                <div class="calc__slides">
+                  <div class="calc__row calc__row">
+                    <div class="calc__label">За последние 3 года у меня (семьи) были затраты на лечение</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <div class="calc__input-label">
+                    <input class="calc__input" type="number" value="10.000">
+                  </div>
+
+                  <div class="calc__row">
+                    <div class="calc__label">Были затраты на мое обучение или детей</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <div class="calc__input-label">
+                    <input class="calc__input" type="number" value="10.000">
+                  </div>
+
+                  <div class="calc__row">
+                    <div class="calc__label">Покупка жилья</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <div class="calc__input-label">
+                    <input class="calc__input" type="number" value="10.000">
+                  </div>
+
+                  <div class="calc__row">
+                    <div class="calc__label">Открыл инвестиционный счет</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <div class="calc__input-label">
+                    <input class="calc__input" type="number" value="10.000">
+                  </div>
+
+                  <div class="calc__row">
+                    <div class="calc__label">Приобреталась медицинская страховка</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <div class="calc__input-label">
+                    <input class="calc__input" type="number" value="10.000">
+                  </div>
                 </div>
               </div>
 
-              <div class="col-xl-3 col-sm-6 col-xs-12">
-                <div class="advantage">
-                  <img src="img/deneg_meshok.png" alt="Отличные цены" class="advantage__img">
-                  <div class="advantage__title">Отличные цены</div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-sm-6 col-xs-12">
-                <div class="advantage">
-                  <img src="img/thumbs_up.png" alt="Экономия на штатных сотрудниках" class="advantage__img">
-                  <div class="advantage__title">Экономия на штатных сотрудниках</div>
+              <div class="col-sm-12 col-xl-3">
+                <div class="calc__btn-container">
+                  <button class="calc__btn" type="submit">Вернуть средства</button>
                 </div>
               </div>
             </div>
           </div>
-          
-          <hr class="divider">
-        </section>
 
-        <section class="help">
-          <div class="row">
-            <div class="col-xl-12">
-              <h2 class="help__title title">Помощь в сдаче налоговых деклараций и отчетности</h2>
-            </div>
-          </div>            
-
+          <div class="calc">
             <div class="row">
-              <div class="col-xl-12">
-                <div class="help__content content">
-                  Этапы оказания услуги по первичной регистрации ООО: <br>
-                  Вы обращаетесь в нашу компанию для открытия Вам ООО, отправив on-line заявку или позвонив по телефону; <br>
-                  Мы подробно Вас консультируем по теме открытия ООО и заключаем с Вами договор на оказание услуг; <br>
-                  Вы предоставляете нам копии/сканы паспортов учредителей и руководителя будущего ООО, а также заполненную анкету (по электронной почте); <br>
-                  Наши юристы готовят пакет документов на регистрацию ООО и сообщают Вам о готовности; <br>
-                  После заверения документы подаются учредителем в налоговый орган; <br>
-                  В течение 5 рабочих дней налоговый орган рассматривает полученные документы, принимает решение о регистрации ООО, и на следующий день выдает документы на вновь зарегистрированное ООО; <br>
-                  Наш сотрудник по доверенности получает документы в налоговом органе. <br>
-                  Мы заказываем печать для Вашего ООО и готовим Приказ о назначении руководителя и главного бухгалтера. <br>
+              <div class="col-xs-12 col-xl-9">
+                <div class="calc__title">Бухгалтерские услуги
+                  <a class="calc__arrow" href="#"></a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-xl-3">
+                <div class="calc__total">Итого: 0 руб.</div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-xl-4">
+                <div class="calc__col">
+                  <div class="calc__radio-title">Система налогообложения</div>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" checked="checked" name="taxation-system" value="osno"> ОСНО
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="taxation-system" value="osno"> УСН 15%
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="taxation-system" value="osno"> УСН 6%
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="taxation-system" value="osno"> Нулевая отчетность
+                    <span class="calc__checkmark"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-xl-5">
+                <div class="calc__slides">
+                  <div class="calc__row">
+                    <div class="calc__label">Количество операций в месяц</div>
+                    <div class="calc__slide calc__slide_accounting"></div>
+                  </div>
+                  <input class="calc__input_grey" name="operations" type="number" value="3">
+
+                  <div class="calc__row">
+                    <div class="calc__label">Количество наемных сотрудников</div>
+                    <div class="calc__slide"></div>
+                  </div>
+                  <input class="calc__input_grey" name="employees" type="number" value="3">
+
+                  <div class="calc__btn-container_small">
+                    <button class="calc__btn calc__btn_small" type="submit">Показать расширенный калькулятор</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-xl-3">
+                <div class="calc__btn-container">
+                  <button class="calc__btn" type="submit">Вернуть средства</button>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="calc">
+            <div class="row">
+              <div class="col-xs-12 col-xl-9">
+                <div class="calc__title">Реставрация/Ликвидация ИП/ООО
+                  <a class="calc__arrow" href="#"></a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-xl-3">
+                <div class="calc__total">Итого: 0 руб.</div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6 col-xl-4">
+                <div class="calc__col">
+                  <div class="calc__radio-title">Выберите форму управления</div>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" checked="checked" name="management-form" value="ip"> ИП
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="management-form" value="ooo-1"> ООО один учредитель
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="management-form" value="ooo-more-2"> ООО 2 и больше учредителей
+                    <span class="calc__checkmark"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-xl-5">
+                <div class="calc__col">
+                  <div class="calc__radio-title">Выберите услуги</div>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" checked="checked" name="services" value="registration-without-seal"> Регистрация без печати, открытие счета, фондов
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="services" value="registration-with-seal"> Регистрация с печатью, расч. счетов, фондами
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="services" value="liquidation-without-activity"> Ликвидация фирмы без деятельности
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="services" value="liquidation-with-activity"> Ликвидация фирмы с деятельностью
+                    <span class="calc__checkmark"></span>
+                  </label>
+
+                  <label class="calc__label calc__radio-label">
+                    <input class="calc__radio" type="radio" name="services" value="okved-changes"> Внесение изменений ОКВЭД
+                    <span class="calc__checkmark"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-xl-3">
+                <div class="calc__btn-container">
+                  <button class="calc__btn" type="submit">Вернуть средства</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
+
+        <section class="content">
+        <h2 class="title_highlight">Правильная бухгалтерия в Челябинске</h2>
+
+        <div class="content">
+          <p>Этапы оказания услуги по первичной регистрации ООО:<br>
+          Вы обращаетесь в нашу компанию для открытия Вам ООО, отправив on-line заявку или позвонив по телефону;<br>
+          Мы подробно Вас консультируем по теме открытия ООО и заключаем с Вами договор на оказание услуг;<br>
+          Вы предоставляете нам копии/сканы паспортов учредителей и руководителя будущего ООО, а также заполненную анкету
+            (по электронной почте);<br>
+          Наши юристы готовят пакет документов на регистрацию ООО и сообщают Вам о готовности; После заверения документы
+            подаются учредителем в налоговый орган;<br>
+          В течение 5 рабочих дней налоговый орган рассматривает полученные документы, принимает решение о регистрации ООО,
+            и на следующий день выдает документы на вновь зарегистрированное ООО;<br>
+          Наш сотрудник по доверенности получает документы в налоговом органе. Мы заказываем печать для Вашего ООО и готовим
+            Приказ о назначении руководителя и главного бухгалтера.</p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <div class="advantage">
+              <img src="img/shield.png" alt="Конфиденциальность и безопасность" class="advantage__img">
+              <div class="advantage__title">Конфиденциальность и безопасность</div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <div class="advantage">
+              <img src="img/time.png" alt="Удобно и оперативно" class="advantage__img">
+              <div class="advantage__title">Удобно и оперативно</div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <div class="advantage">
+              <img src="img/deneg_meshok.png" alt="Отличные цены" class="advantage__img">
+              <div class="advantage__title">Отличные цены</div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-xl-3">
+            <div class="advantage">
+              <img src="img/thumbs_up.png" alt="Экономия на штатных сотрудниках" class="advantage__img">
+              <div class="advantage__title">Экономия на штатных сотрудниках</div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <h2 class="title_highlight">Помощь в сдаче налоговых деклараций и отчетности</h2>
+        <div class="content">
+          <p>Этапы оказания услуги по первичной регистрации ООО:</p>
+          <p>Вы обращаетесь в нашу компанию для открытия Вам ООО, отправив on-line заявку или позвонив по телефону;</p>
+          <p>Мы подробно Вас консультируем по теме открытия ООО и заключаем с Вами договор на оказание услуг;</p>
+          <p>Вы предоставляете нам копии/сканы паспортов учредителей и руководителя будущего ООО, а также заполненную анкету
+            (по электронной почте);</p>
+          <p>Наши юристы готовят пакет документов на регистрацию ООО и сообщают Вам о готовности; После заверения документы
+            подаются учредителем в налоговый орган;</p>
+          <p>В течение 5 рабочих дней налоговый орган рассматривает полученные документы, принимает решение о регистрации ООО,
+            и на следующий день выдает документы на вновь зарегистрированное ООО;</p>
+          <p>Наш сотрудник по доверенности получает документы в налоговом органе. Мы заказываем печать для Вашего ООО и готовим
+            Приказ о назначении руководителя и главного бухгалтера.</p>
+        </div>
+      </section>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="footer__menu block_blue">
+    <div class="footer__menu address-block">
       <div class="container">
         <div class="row">
-          <div class="col-xl-2 col-sm-6 col-xs-12">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Главная</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">О компании</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Услуги</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Новости</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Стоимость</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Контакты</a>
-              </li>
-            </ul>
-          </div>  
+          <div class="col-xs-12 col-sm-6 col-xl-2">
+            <nav class="menu-footer">
+              <a href="#" class="menu-footer__link">Главная
+              </a>
+              <a href="#" class="menu-footer__link">О компании
+              </a>
+              <a href="#" class="menu-footer__link">Услуги
+              </a>
+              <a href="#" class="menu-footer__link">Новости
+              </a>
+              <a href="#" class="menu-footer__link">Стоимость
+              </a>
+              <a href="#" class="menu-footer__link">Контакты
+              </a>
+            </nav>
+          </div>
 
-          <div class="col-xl-2 col-sm-6 col-xs-12">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Регистрация фирм</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Ликвидация фирм</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Кадастровый учет</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Возврат НДФЛ</a>
-              </li>
-              <li class="menu__item">
-                <a href="#"><img src="img/spoiler.jpg" alt=""></a>
-                <a class="menu__link" href="#">Заполнение деклараций</a>
-              </li>
-            </ul>
-          </div>                    
+          <div class="col-xs-12 col-sm-6 col-xl-2">
+            <nav class="menu-footer">
+              <a href="#" class="menu-footer__link">Регистрация фирм
+              </a>
+              <a href="#" class="menu-footer__link">Ликвидация фирм
+              </a>
+              <a href="#" class="menu-footer__link">Кадастровый учет
+              </a>
+              <a href="#" class="menu-footer__link">Возврат НДФЛ
+              </a>
+              <a href="#" class="menu-footer__link">Заполнение деклараций
+              </a>
+            </nav>
+          </div>
 
-          <div class="col-xl-4 col-sm-6 col-xs-12">
-            <div class="footer__address">
-              <div class="address__location"></div>
-              <div class="contacts__item">ул. Братьев Кашириных, 32 офис 9</div>
-              <div class="contacts__item">пр. Ленина, 12
-                <div class="address__entrance">(вход со стороны проспекта Ленина)</div>
+          <div class="col-xs-12 col-sm-6 col-xl-4">
+            <address class="address-footer">
+              <div class="address-footer__location"></div>
+              <div class="address-footer__row">ул. Братьев Кашириных, 32 офис 9</div>
+              <div class="address-footer__row">пр. Ленина, 12
+                <div class="address-footer__row_small">(вход со стороны проспекта Ленина)</div>
               </div>
-              <div class="contacts__item">ул. Чичерина, 13
-                <div class="address__entrance">(вход с ул. Чичерина)</div>
+              <div class="address-footer__row">ул. Чичерина, 13
+                <div class="address-footer__row_small">(вход с ул. Чичерина)</div>
               </div>
-            </div>
-          </div>      
+            </address>
+          </div>
 
-          <div class="col-xl-4 col-sm-6 col-xs-12">
-            <div class="footer__contacts"> 
-              <div class="contacts__item contacts__phone">
-                +7 (651) 235-95-77 <br> 
-                +7 (351) 233-12-54 <br> 
-                +7 (351) 751-30-47</div>
-              <div class="contacts__item contacts__time">
-                по будням 9:00 — 17:00<br> 
-                обед 13:00 — 14:00 </div>
-              <div class="contacts__item contacts__e-mail">balans74@mail.ru</div>
+          <div class="col-xs-12 col-sm-6 col-xl-4">
+            <div class="contacts-footer">
+              <div class="address-footer__row contacts-footer__phone">
+                <a class="contacts-footer__link" href="tel:+76512359577">+7 (651) 235-95-77</a>
+                <a class="contacts-footer__link" href="tel:+73512331254">+7 (351) 233-12-54</a>
+                <a class="contacts-footer__link" href="tel:+73517513047">+7 (351) 751-30-47</a>
+              </div>
+              <div class="address-footer__row contacts-footer__time">
+                по будням 9:00 — 17:00
+                <br> обед 13:00 — 14:00 </div>
+              <a class="contacts-footer__link contacts-footer__e-mail" href="mailto:balans74@mail.ru">balans74@mail.ru</a>
             </div>
           </div>
         </div>
       </div>
-    </div>      
+    </div>
 
-    <div class="footer__logo block_light-blue">
+    <div class="footer__logo logo-and-social">
       <div class="container">
         <div class="row">
-          <div class="col-xl-10 col-sm-8 col-xs-12">
-            <div class="logo_bottom">
-              <a href="#"><img src="img/logo_bot.png" alt="Консалтинговая группа Баланс"></a>
-            </div>
-          </div>                  
+          <div class="col-xs-12 col-sm-8 col-xl-10">
+            <a href="#">
+              <img class="logo_bottom" src="img/logo_bot.png" alt="Консалтинговая группа Баланс">
+            </a>
+          </div>
 
-          <div class="col-xl-2 col-sm-4 col-xs-12">
-            <div class="footer__social-media social-media">
-              <a href="#" class="social-media__item"><img src="img/vk.png" alt="Вконтакте"></a>
-              <a href="#" class="social-media__item"><img src="img/fb.png" alt="Facebook"></a>
-              <a href="#" class="social-media__item"><img src="img/ok.png" alt="Одноклассники"></a>
+          <div class="col-xs-12 col-sm-4 col-xl-2">
+            <div class="social-media">
+              <a href="#" class="social-media__link">
+                <img src="img/vk.png" alt="Вконтакте">
+              </a>
+              <a href="#" class="social-media__link">
+                <img src="img/fb.png" alt="Facebook">
+              </a>
+              <a href="#" class="social-media__link">
+                <img src="img/ok.png" alt="Одноклассники">
+              </a>
             </div>
           </div>
         </div>
