@@ -1,0 +1,13 @@
+{
+  "name": "balance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/michiaro/balance.git",
+  "author": "Michiaro <michiaro@bk.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^6.0.18",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0"
+  }
+}
