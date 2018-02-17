@@ -113,7 +113,7 @@ body {
   border-right: 1px solid #58546d;
 }
 
-.menu__link_right {
+.menu__link:last-child {
   border: none;
 }
 
